@@ -6,7 +6,8 @@ import _openWebSocket from 'open-websocket'
 
 const endpoints = {
   base: 'wss://stream.binance.com:9443/ws',
-  futures: 'wss://fstream.binance.com/ws',
+  // futures: 'wss://fstream.binance.com/ws',
+  futures: 'wss://stream.binancefuture.com',
 }
 
 const wsOptions = {}
